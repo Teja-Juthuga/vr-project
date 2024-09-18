@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-container{
+    background-image: url("public/vr-banner-bg.png");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.main-heading{
+    color: #fff;
+}
+
+.view-more-btn{
+    border: 0;
+    height: 35px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: #1a2137;
+    color: #fff;
+}
